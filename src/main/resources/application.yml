@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: local   # 👈 This will load application-local.yml
+
+server:
+  servlet:
+    context-path: /api
+    port: 8080
+    shutdown: GRACEFUL
